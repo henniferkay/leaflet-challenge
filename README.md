@@ -6,7 +6,7 @@ The aim of this project was to visualize seismology data from the United States 
 ## Methods
 The USGS updates data on earthquakes around the world every 5 minutes and provides them in JSON format on their [website](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php). The "All Earthquakes from the Past 7 Days" dataset was selected from this webpage.
 
-The JavaScript program (`logic.js` within `static/js`) shows how the data were imported and visualized. We pulled the data by making an API call to USGS's GeoJSON via JavaScript's D3 library. With the imported data, we created a map plotting all the earthquake data points using Leaflet. 
+The JavaScript program (`logic.js` within `static/js`) shows how the data were imported and visualized. We pulled the data by making an API call to USGS's GeoJSON via JavaScript's D3 library. We then created a map plotting all the earthquake data points using Leaflet. 
 
 There were specific objectives for this map assignment:
 
